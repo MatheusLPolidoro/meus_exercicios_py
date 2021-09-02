@@ -1,0 +1,5 @@
+print('{:=^100}'.format(' DESAFIO 6'))
+pn = float(input('\nPrimeira nota do aluno: '))
+sn = float(input('Seguda nota do aluno: '))
+print('\nA média entre {} e {} é igual a {:.1f}\n'.format(pn, sn, (pn + sn) / 2))
+print('{:=^100}'.format(' FIM DESAFIO 6'))
